@@ -1,0 +1,95 @@
+.main-content {
+    display: flex;
+}
+aside {
+    border-right: 2px solid #aaa;
+    height: 100vh;
+}
+.container img {
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-right: 40px;
+}
+main {
+    width: 85%;
+    padding: 20px;
+}
+.popup-overlay {
+    position: fixed;
+    background-color: #000c;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.popup-box {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 30px;
+    z-index: 1001;
+    border-radius: 8px;
+}
+.add-lec,.add-inct,.add-course,.user-info {
+    padding: 15px;
+    box-shadow: 0 0 7px 0px #dfdfdf;
+    margin: 10px;
+    margin-top: 20px;
+}
+input#course-img {
+    padding: 10px;
+}
+.input-img {
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+input#course-name {
+    margin: 10px;
+}
+.radio-levels {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.level-radio {
+    padding: 5px;
+}
+.add-course {
+    padding-top: 30px;
+}
+select#instructors {
+    height: 45px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #0d6efd;
+    border-radius: 4px;
+}
+.inst-name {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.add-lec form {
+    display: flex;
+    flex-direction: column;
+}
+.lec-name,.lec-url,.lec-thumnail,.inct-name,.inst-img {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+    padding: 10px;
+}
+[type=submit] {
+    align-self: end;
+}
+.tox.tox-tinymce {
+    height: 500px !important;
+}
